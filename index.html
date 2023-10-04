@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cafea de specialitate in centrul Bucurestiului. AM PM.">   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <title>AM PM Coffee Shop</title>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <div class="header" id="home">
+        <nav id="navbar">
+            <a href="#home" class="logo"><img src="img/logo.png"></a>
+            <div class="links" id="nav">
+                <a href="#home">Acasa</a>
+                <a href="#about">Despre noi</a>
+                <a href="#blog">Ce facem?</a>
+                <a href="#service">Produse</a>
+                <a href="#team">Echipa noastra</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+            <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+        </nav>
+        <div class="content">
+            <h3>Get that energy boost</h3>
+            <h1>Coffee in the AM <br>Alcohol in the PM</h1>
+            <button class="btn">Cumpara</button>
+        </div>
+    </div>
+    <!-- Header Section End -->
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="image">
+
+            </div>
+            <div class="about-content">
+                <h1>Ce ne face speciali?</h1>
+                <p>Cafea de cea mai inalta specialitate</p>
+                <p>Prospetime garantata</p>
+                <p>Expertiza barista</p>
+                <p>Varietate de arome</p>
+                <p>Sursa etica</p>
+                <button class="btn" style="color: black;">About Us</button>
+
+            </div>
+        </div>
+    </section>
+    <!-- About Section End-->
+
+    <!-- Blog Section -->
+    <section class="blog" id="blog">
+        <h1 class="heading">Ce <span>Facem?</span></h1>
+        <p class="heading-description">Citeste blogul nostru pentru a fi la curent cu ce facem noi</p>
+        <div class="container">
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/bar.jpg" alt="">
+                    <span>1 <br> Oct </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By AM PM |<span> Bucuresti</span></h3>
+                    <h1>Un an de AM PM Bucuresti</h1>
+                    <p>Pe 3 septembrie am facut un an de AM PM in Bucuresti. Cum a fost la petrecere?</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/snacks.jpg" alt="snacks">
+                    <span>1 <br> Oct </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By AM PM |<span> Bucuresti</span></h3>
+                    <h1>Snacks @ AM PM</h1>
+                    <p>Avem noi snack-uri in meniul AM PM. Vino sa le descoperi.</p>
+                </div>
+            </div>
+            <div class="post">
+                <div class="blog-img">
+                    <img src="img/povestea.jpg" alt="">
+                    <span>1 <br> Oct </span>
+                </div>
+                <div class="blog-content">
+                    <h3>By AM PM |<span> Sibiu</span></h3>
+                    <h1>Povestea noastra</h1>
+                    <p>Am vorbit si despre noi. De data asta mai mult decat despre cafele. Ne gasesti povestea pe <a href="https://www.alistmagazine.ro/lifestyle/povestea-cafenelei-mele/povestea-cafenelei-mele-am-pm/" class="alist-magazine">Alist Magazine</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End-->
+    <!-- Service Section -->
+    <section class="service" id="service">
+        <h1 class="heading">Produsele <span>Noastre</span></h1>
+        <p class="heading-description">Vindem cafea de specialitate de inalta calitate.</p>
+        <div class="container">
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/tasty.jpg" alt="tasty">
+                </div>
+                <div class="service-content">
+                    <h3>Tasty and healty</h3>
+                    <p>Cheama-ti prietenii sa petreceti o dimineata sanatoasa la noi.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/butterfly latte.jpg" alt="butterfly-latte">
+                </div>
+                <div class="service-content">
+                    <h3>Butterfly Latte</h3>
+                    <p>Acest Latte de culoare albastra este in acelasi timp si instagramabil, si foarte bun. Numai bun de pus pe story </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/4ginuri.jpg" alt="ginuri">
+                </div>
+                <div class="service-content">
+                    <h3>Selectia noastra de ginuri</h3>
+                    <p>In fiecare zi te asteptam cu selectia noastra de ginuri</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/sweet.jpg" alt="sweet-treats">
+                </div>
+                <div class="service-content">
+                    <h3>Sweet treats</h3>
+                    <p>Vino sa te rasfeti cu ceva dulce</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/affogato.jpg" alt="affogato">
+                </div>
+                <div class="service-content">
+                    <h3>Affogato? Yes, please</h3>
+                    <p>Te asteptam cu desertul nostru preferat, Affogato.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-img">
+                    <img src="img/colt.jpg" alt="colt-de-rai">
+                </div>
+                <div class="service-content">
+                    <h3>Un colt de rai pentru task-urile alea de luni dimineata</h3>
+                    <p>Vino sa descoperi coltul nostru de rai care sa te binedispuna in zilele de luni cand task-urile de la serviciu pun presiune pe tine.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Service Section End -->
+
+
+
+    <!-- Team Section -->
+
+    <section class="team" id="team">
+        <h1 class="heading"> Our <span>Team</span></h1>
+        <p class="heading-description"> True love for coffee & drinks</p>
+        <div class="container">
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/remus.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Remus</h3>
+                    <p>Barista</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/remus_paduraru/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/bogdan.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Bogdan</h3>
+                    <p>Barista</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/_coffee_nomad/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-box">
+                <div class="team-img">
+                    <img src="img/edward.jpg" alt="">
+                </div>
+                <div class="team-content">
+                    <h3>Edward</h3>
+                    <p>Barman</p>
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/edward_paduraru/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+                    </div>
+                </div>
+        </div>
+    </section>
+    <!-- Team Section End-->
+
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact <span>Us</span></h1>
+        <p class="heading-description">We are always here for you...</p>
+        <div class="container">
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <h2>Email address <br> <span>Send email anytime</span></h2>
+                </div>
+                <div>
+                    <p>ampmbucuresti@ampmcoffeeshop.ro</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h2>Adrese <br> <span>Find Us</span></h2>
+                </div>
+                <div>
+                    <p>Paris 7A, Bucuresti</p>
+                    <p>Ocnei 25, Sibiu</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Call Us <br> <span>Give us a call</span></h2>
+                </div>
+                <div>
+                    <p>+40742050513</p>
+                    <i class="fa-solid fa-right-long"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section End -->
+
+
+
+
+    <!-- Footer Section -->
+    <section class="footer">
+
+
+        <div class="container">
+            <div class="footer-box">
+                <h3>about us </h3>
+                <p>AM PM Coffee Shop s-a nascut in anul 2019 din pasiunea noastra pentru cafea si dorinta de a oferi clientilor sansa de a gusta din cele mai bune cafele.</p>
+                <p>Copyrights &copy; 2023 All rights reserved By Eduard Paduraru</p>
+
+            </div>
+            <div class="footer-box">
+                <h3>Newsletter</h3>
+                <p>Stay updated with our latests</p>
+                <form>
+                    <input type="email" name="email" placeholder="example@gmail.com">
+                    <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+                </form>
+            </div>
+            <div class="footer-box">
+                <h3>Follow Us</h3>
+                <p>Connect With Us On:</p>
+                <div>
+                    <a href="https://www.facebook.com/ampmcoffeeandmore"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/ampmcoffeeshop/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <script src="script.js"></script>
+</body>
+
+</html>
